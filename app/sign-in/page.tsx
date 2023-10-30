@@ -1,6 +1,5 @@
 import { SigninBtns } from "@/components/SigninBtns"
 
-
 const SignIn = () => {
   return (
     <div className="">
