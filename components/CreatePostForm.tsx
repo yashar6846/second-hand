@@ -1,7 +1,7 @@
 "use client"
 
 import { categoriesData } from "@/data";
-import { link } from "fs";
+// import { link } from "fs";
 import Link from "next/link";
 import { useState } from "react";
 import { GrAdd } from "react-icons/gr";
@@ -22,7 +22,7 @@ export default function CreatePostForm() {
   const deleteLink = (index: number) => {
     setLinks((prev)=> prev.filter((_, i)=> i !== index))
   }
-  
+
   return (
     <div>
         <h2>Create post Fom</h2>
